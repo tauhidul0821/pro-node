@@ -1,0 +1,29 @@
+{
+  "name": "pro-node",
+  "version": "1.0.0",
+  "description": "This is nodejs practice project with most common feature: login-jwt-passport, promise, async-await, non-blocking, validation, sql, sql-crud, SQL Injection, sql-pagination, all type of database joining, database backup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tauhidul0821/pro-node.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "javascript",
+    "API",
+    "database"
+  ],
+  "author": "Md. Tauhidul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tauhidul0821/pro-node/issues"
+  },
+  "homepage": "https://github.com/tauhidul0821/pro-node#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
