@@ -1,7 +1,7 @@
 {
   "name": "pro-node",
   "version": "1.0.0",
-  "description": "This is nodejs practice project with most common feature: login-jwt-passport, promise, async-await, non-blocking, validation, sql, sql-crud, SQL Injection, sql-pagination, all type of database joining, database backup",
+  "description": "This is nodejs practice project with most common feature: login-jwt-passport, swagger, promise, async-await, non-blocking, validation, sql, sql-crud, SQL Injection, sql-pagination, all type of database joining, database backup",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",
@@ -27,6 +27,8 @@
   "dependencies": {
     "concurrently": "^8.2.2",
     "express": "^4.19.2",
-    "nodemon": "^3.1.0"
+    "nodemon": "^3.1.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
   }
 }
