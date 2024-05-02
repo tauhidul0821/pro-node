@@ -4,6 +4,7 @@
   "description": "This is nodejs practice project with most common feature: login-jwt-passport, promise, async-await, non-blocking, validation, sql, sql-crud, SQL Injection, sql-pagination, all type of database joining, database backup",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/tauhidul0821/pro-node#readme",
   "dependencies": {
-    "express": "^4.19.2"
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
   }
 }
